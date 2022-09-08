@@ -9,15 +9,18 @@ public class HiOne {
 	 */
 	public static void main(String[] args) {
 
-		Scanner in = new Scanner(System.in);
-		System.out.print("Enter value for arg 0: ");
-		String name = in.nextLine();
+		//Scanner in = new Scanner(System.in);
+		//System.out.print("Enter value for arg 0: ");
+		//String name = in.nextLine();
 		//
 		// Below this line, enter code so that this program's output says
 		//      Hi, Pat.  How are you?
 		// if the value of name is "Pat"
 		//
-
+		Scanner in = new Scanner(System.in);
+		System.out.print("What is your name?");
+		String name = in.nextLine();
+		System.out.print("Hi" + name + ". How are you!");
 	}
 
 }
